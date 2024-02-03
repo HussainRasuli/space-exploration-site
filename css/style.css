@@ -1,0 +1,61 @@
+body {
+  background-image: url("../images/earth.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 120px;
+}
+.content {
+  width: 500px;
+}
+h1 {
+  font-size: 88px;
+  font-family: ui-monospace;
+}
+.text-title {
+  font-size: 21px;
+  font-family: monospace;
+}
+.text-content {
+  font-size: 21px;
+  font-family: math;
+}
+
+.button {
+  margin-top: 105px;
+}
+.btn {
+  margin-top: 61px;
+  padding: 24px 45px 24px 45px;
+  border-radius: 14px;
+  font-size: 22px;
+  cursor: pointer;
+  background: white;
+  border-color: white;
+  color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    display: block;
+    text-align: center;
+    margin-top: 45px;
+  }
+  .content {
+    width: 100%;
+  }
+  .button {
+    margin-top: 71px;
+    margin-bottom: 31px;
+  }
+  .btn {
+    margin-top: -27px;
+    padding: 18px 25px 18px 25px;
+    font-size: 17px;
+  }
+}
